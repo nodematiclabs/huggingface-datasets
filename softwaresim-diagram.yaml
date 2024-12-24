@@ -1,0 +1,742 @@
+mouseWheel:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Bold
+      id: boldText
+      target: .e-elementcontent
+      iconCss: fa fa-bold
+    - text: Italicize
+      id: italicizeText
+      target: .e-elementcontent
+      iconCss: fa fa-italic
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 603
+  horizontalOffset: -121
+  verticalOffset: -115
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 603
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #9E630B;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Hugging_face_Black_87_l3pdsp.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Hugging_face_rssxni.webp);"></div><div
+        class="c-text"><div class="c-title">Hugging Face Datasets</div><div
+        class="c-short-description">Developing and implementing state-of-the-art
+        natural language processing models and tools</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Hugging Face</div></div></div></div></div>'
+    id: Hugging FacemHv0y
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Hugging Face
+        shortDescription: Developing and implementing state-of-the-art natural language
+          processing models and tools
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Hugging Face
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Hugging Face
+      editableName: Hugging Face Datasets
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Model Repository
+          type: Storage
+          portsIn:
+            put: models
+            get: fetch
+          portsOut:
+            stored: models
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Model Repository
+      name: Hugging Face
+      category: 3
+      imgUrl: https://static.softwaresim.com/logos/webp/Hugging_face_rssxni.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Hugging_face__044448_dhzej2.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Hugging_face_Black_87_l3pdsp.webp
+      color: "#9E630B"
+      controlText: Hugging Face
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 321
+    offsetY: 246
+    zIndex: 1
+    outEdges:
+      - Orthogonal Bidirectional ConnectorTbaSn
+      - Orthogonal Bidirectional ConnectorTbaSnsAJXH
+      - Straight ConnectorIhSI6
+      - Straight ConnectorIhSI6xpC8G
+      - Straight ConnectorIhSI6xpC8GwlLkK
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #99650C; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/SQL_Black_87_qsnzrg.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/SQL_rxqivg.webp);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>SQL</div></div></div>'
+    id: SQLGF8bk
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: SQL
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: SQL
+      status: N/A
+      size: sm
+      nodeType: html
+      title: SQL
+      editableName: SQL
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: SQL
+      category: 8
+      imgUrl: https://static.softwaresim.com/logos/webp/SQL_rxqivg.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/SQL__044448_scolip.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/SQL_Black_87_qsnzrg.webp
+      controlText: SQL
+      color: "#99650C"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 100
+    offsetX: 564
+    offsetY: 189
+    zIndex: 2
+    inEdges:
+      - Orthogonal Bidirectional ConnectorTbaSn
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3B77A7; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Python_A__Black_87_nciqru.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Python_A_sgxbzs.webp);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Python</div></div></div>'
+    id: PythonbvLFp
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Python
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Python
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Python
+      editableName: Python
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Python
+      category: 8
+      imgUrl: https://static.softwaresim.com/logos/webp/Python_A_sgxbzs.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Python_A__044448_g32jqq.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Python_A__Black_87_nciqru.webp
+      controlText: Python
+      color: "#3B77A7"
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 100
+    offsetX: 564
+    offsetY: 322
+    zIndex: 4
+    inEdges:
+      - Orthogonal Bidirectional ConnectorTbaSnsAJXH
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #BA5512;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Jupyter_Black_87_uahk2k.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Jupyter_lm2xh2.webp);"></div><div
+        class="c-text"><div class="c-title">Jupyter</div><div
+        class="c-short-description">Interactive data analysis and visualization
+        in various programming languages</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Jupyter</div></div></div></div></div>'
+    id: JupyteroI2Ui
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Jupyter
+        shortDescription: Interactive data analysis and visualization in various
+          programming languages
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Jupyter
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Jupyter
+      editableName: Jupyter
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: IDE
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: IDE
+          AverageTimeBetweenRequests: 1
+      name: Jupyter
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Jupyter_lm2xh2.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Jupyter__044448_fyi1ig.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Jupyter_Black_87_uahk2k.webp
+      color: "#BA5512"
+      controlText: Jupyter
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 747
+    offsetY: 335
+    zIndex: 0
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #353A86; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Kubeflow_Black_87_pknfq4.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Kubeflow_uzs5wk.webp);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Kubeflow</div></div></div>'
+    id: Kubeflowhts5M
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubeflow
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Kubeflow
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubeflow
+      editableName: Kubeflow
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Training Pipeline
+          type: Processor
+          portsIn:
+            job: model
+          portsOut:
+            job: model
+          serviceTime:
+            exp:
+              lambda: AverageTrainingDuration
+        - name: IDE
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: commit
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenCommits
+        - name: Deployment Tool
+          type: Processor
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Training Pipeline
+          AverageTrainingDuration: 1
+        - type: Generator
+          status: Idle
+          name: IDE
+          AverageTimeBetweenCommits: 1
+        - type: Processor
+          status: Idle
+          name: Deployment Tool
+          AverageDeploymentDuration: 1
+      name: Kubeflow
+      category: 10
+      imgUrl: https://static.softwaresim.com/logos/webp/Kubeflow_uzs5wk.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Kubeflow__0484848_v0ybbn.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Kubeflow_Black_87_pknfq4.webp
+      color: "#353A86"
+      controlText: Kubeflow
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 100
+    offsetX: 83
+    offsetY: 146
+    zIndex: 6
+    inEdges:
+      - Straight ConnectorIhSI6
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3d5c5c; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Web_Application_Black_87_pdwccj.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Web_Application_3d5c5c_iswqan.webp);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Web
+        App</div></div></div>'
+    id: Web ApplicationZdv2F
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Web Application
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Web Application
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Web Application
+      editableName: Web App
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Web Application
+      category: 6
+      imgUrl: https://static.softwaresim.com/logos/webp/Web_Application_3d5c5c_iswqan.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Web_Application_Black_zbzaaw.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Web_Application_Black_87_pdwccj.webp
+      color: "#3d5c5c"
+      controlText: Web Application
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      latitude: null
+      longitude: null
+    width: 100
+    height: 100
+    offsetX: -40
+    offsetY: 235
+    zIndex: 8
+    inEdges:
+      - Straight ConnectorIhSI6xpC8G
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #433F3E; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Brain_Black_87_mt3chn.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Brain_xtdm22.webp);
+        border-radius: 10px"></div></div><div class="c-undername"><div>AI
+        Training</div></div></div>'
+    id: Artificial IntelligencegsVxd
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Artificial Intelligence
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Artificial Intelligence
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Artificial Intelligence
+      editableName: AI Training
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Artificial Intelligence
+      category: 6
+      imgUrl: https://static.softwaresim.com/logos/webp/Brain_xtdm22.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Brain__044448_arwabe.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Brain_Black_87_mt3chn.webp
+      controlText: Artificial Intelligence
+      color: "#433F3E"
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 100
+    offsetX: 90.5
+    offsetY: 335
+    zIndex: 9
+    inEdges:
+      - Straight ConnectorIhSI6xpC8GwlLkK
+connectors:
+  - id: Orthogonal Bidirectional ConnectorTbaSn
+    type: Orthogonal
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 471
+      y: 246
+    targetPoint:
+      x: 514
+      y: 189
+    sourceID: Hugging FacemHv0y
+    targetID: SQLGF8bk
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 3
+  - id: Orthogonal Bidirectional ConnectorTbaSnsAJXH
+    type: Orthogonal
+    sourceDecorator:
+      shape: OpenArrow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 471
+      y: 246
+    targetPoint:
+      x: 514
+      y: 322
+    sourceID: Hugging FacemHv0y
+    targetID: PythonbvLFp
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 5
+  - id: Straight ConnectorIhSI6
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 202
+      y: 196
+    targetPoint:
+      x: 133
+      y: 167.01
+    sourceID: Hugging FacemHv0y
+    targetID: Kubeflowhts5M
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Straight ConnectorIhSI6xpC8G
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 171
+      y: 241.43
+    targetPoint:
+      x: 10
+      y: 236.52
+    sourceID: Hugging FacemHv0y
+    targetID: Web ApplicationZdv2F
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Straight ConnectorIhSI6xpC8GwlLkK
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 191.5
+      y: 296
+    targetPoint:
+      x: 140.5
+      y: 315.69
+    sourceID: Hugging FacemHv0y
+    targetID: Artificial IntelligencegsVxd
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+selectedItems:
+  width: 0
+  height: 0
